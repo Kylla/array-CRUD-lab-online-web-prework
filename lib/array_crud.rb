@@ -7,9 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
- pets = ["cat", "dog", "mouse", "bird"]
-  pets.push("snake")
-   puts pets.inspect
+ array = ["cat", "dog", "mouse", "bird"]
+  array.push("snake")
    
 end
 
